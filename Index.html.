@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asfalto Sustentável</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+font-family:Arial,sans-serif;
+background:#f5f8f4;
+color:#17301f;
+line-height:1.6
+}
+header{
+background:linear-gradient(135deg,#123c2a,#28734a);
+color:white;
+position:sticky;
+top:0;
+z-index:10;
+box-shadow:0 3px 15px #0002
+}
+nav{
+max-width:1100px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:16px 22px
+}
+.logo{font-weight:bold;font-size:1.15rem}
+.logo span{color:#a9e66f}
+nav ul{display:flex;gap:18px;list-style:none}
+nav a{color:white;text-decoration:none;font-weight:bold}
+.hero{
+min-height:82vh;
+display:flex;
+align-items:center;
+background:linear-gradient(120deg,#123c2aee,#246b46dd);
+color:white
+}
+.hero-content{
+max-width:1100px;
+margin:auto;
+padding:80px 22px
+}
+.tag{
+display:inline-block;
+background:#a9e66f;
+color:#17301f;
+padding:7px 13px;
+border-radius:30px;
+font-weight:bold;
+margin-bottom:18px
+}
+h1{
+font-size:clamp(2.5rem,7vw,5rem);
+line-height:1.05;
+max-width:850px
+}
+.hero p{
+font-size:1.15rem;
+max-width:700px;
+margin:22px 0
+}
+.btn{
+display:inline-block;
+background:#a9e66f;
+color:#17301f;
+padding:13px 20px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold
+}
+section{
+max-width:1100px;
+margin:auto;
+padding:75px 22px
+}
+.section-title{
+text-align:center;
+margin-bottom:38px
+}
+.section-title h2{
+font-size:2.2rem;
+color:#185334
+}
+.section-title p{color:#5c6e61}
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:35px
+}
+.card{
+background:white;
+padding:28px;
+border-radius:18px;
+box-shadow:0 8px 25px #183d2314
+}
+.highlight{border-left:6px solid #73bd43}
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px
+}
+.card h3{
+margin:12px 0;
+color:#185334
+}
+.icon{font-size:2rem}
+.materials{
+background:#eaf3e8;
+max-width:none
+}
+.materials-inner{
+max-width:1100px;
+margin:auto
+}
+.steps{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:16px
+}
+.step{
+background:white;
+padding:22px;
+border-radius:16px
+}
+.num{
+width:38px;
+height:38px;
+border-radius:50%;
+display:grid;
+place-items:center;
+background:#28734a;
+color:white;
+font-weight:bold;
+margin-bottom:12px
+}
+.team{
+background:#123c2a;
+color:white;
+max-width:none
+}
+.team-inner{
+max-width:1100px;
+margin:auto;
+text-align:center;
+padding:75px 22px
+}
+.team-box{
+margin:25px auto 0;
+max-width:800px;
+background:#ffffff12;
+border:1px solid #ffffff2b;
+padding:25px;
+border-radius:16px
+}
+.team-box p{margin:8px}
+footer{
+background:#0c291d;
+color:#dcebdd;
+text-align:center;
+padding:25px
+}
+@media(max-width:800px){
+nav ul{display:none}
+.about,.cards,.steps{grid-template-columns:1fr}
+.hero{min-height:75vh}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">🌱 Asfalto <span>Sustentável</span></div>
+
+<ul>
+<li><a href="#inicio">Início</a></li>
+<li><a href="#projeto">Projeto</a></li>
+<li><a href="#beneficios">Benefícios</a></li>
+<li><a href="#equipe">Equipe</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<section class="hero" id="inicio">
+<div class="hero-content">
+
+<span class="tag">PROJETO ESCOLAR • SUSTENTABILIDADE</span>
+
+<h1>Asfalto Sustentável</h1>
+
+<p>
+Uma proposta para repensar as estradas, reduzir impactos ambientais e transformar materiais que seriam descartados em soluções para a mobilidade.
+</p>
+
+<a class="btn" href="#projeto">Conheça o projeto ↓</a>
+
+</div>
+</section>
+
+<section id="projeto">
+
+<div class="section-title">
+<h2>O que é asfalto sustentável?</h2>
+<p>Uma alternativa que busca unir infraestrutura, inovação e responsabilidade ambiental.</p>
+</div>
+
+<div class="about">
+
+<div class="card highlight">
+<p>
+O asfalto sustentável é uma abordagem que procura diminuir os impactos ambientais da construção e manutenção de pavimentos. Para isso, podem ser estudados materiais reciclados, reaproveitamento de resíduos, técnicas de produção mais eficientes e maior durabilidade das estradas.
+</p>
+</div>
+
+<div class="card">
+<h3>🎯 Objetivo do nosso projeto</h3>
+<p>
+Mostrar como a tecnologia e o reaproveitamento de materiais podem contribuir para estradas mais eficientes, reduzindo desperdícios e incentivando práticas de economia circular.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="beneficios">
+
+<div class="section-title">
+<h2>Por que investir nessa ideia?</h2>
+<p>Possíveis contribuições ambientais, econômicas e sociais.</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">♻️</div>
+<h3>Reaproveitamento</h3>
+<p>
+Resíduos e materiais provenientes de outras atividades podem ser estudados para reaproveitamento em pavimentos.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🌎</div>
+<h3>Menor impacto</h3>
+<p>
+A busca por processos mais eficientes pode ajudar a reduzir o consumo de recursos e os impactos ambientais.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🛣️</div>
+<h3>Durabilidade</h3>
+<p>
+Materiais e técnicas adequados podem contribuir para pavimentos resistentes e com maior vida útil.
+</p>
+</div>
+
+</div>
+</section>
+
+<section class="materials">
+
+<div class="materials-inner">
+
+<div class="section-title">
+<h2>Materiais e possibilidades</h2>
+<p>Alguns caminhos que podem ser pesquisados no desenvolvimento de pavimentos sustentáveis.</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>♻️ Asfalto reciclado</h3>
+<p>
+Reutilização de material de pavimentos existentes, reduzindo a necessidade de novos recursos.
+</p>
+</div>
+
+<div class="card">
+<h3>🧴 Plásticos reciclados</h3>
+<p>
+Pesquisas estudam o uso de determinados resíduos plásticos como componentes ou modificadores de misturas asfálticas.
+</p>
+</div>
+
+<div class="card">
+<h3>🏗️ Resíduos de construção</h3>
+<p>
+Materiais selecionados e processados podem ter aplicações em diferentes etapas da infraestrutura.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Como a proposta funciona?</h2>
+<p>Uma visão simples do caminho do projeto.</p>
+</div>
+
+<div class="steps">
+
+<div class="step">
+<div class="num">1</div>
+<h3>Identificar</h3>
+<p>Encontrar resíduos e materiais com potencial de reaproveitamento.</p>
+</div>
+
+<div class="step">
+<div class="num">2</div>
+<h3>Pesquisar</h3>
+<p>Avaliar estudos, propriedades e formas seguras de utilização.</p>
+</div>
+
+<div class="step">
+<div class="num">3</div>
+<h3>Testar</h3>
+<p>Comparar misturas e analisar resistência, desempenho e impactos.</p>
+</div>
+
+<div class="step">
+<div class="num">4</div>
+<h3>Avaliar</h3>
+<p>Verificar resultados e pensar em aplicações responsáveis.</p>
+</div>
+
+</div>
+</section>
+
+<section class="team" id="equipe">
+
+<div class="team-inner">
+
+<div class="section-title">
+<h2 style="color:white">Nossa equipe</h2>
+<p style="color:#d5e8d7">
+Projeto desenvolvido para apresentação escolar.
+</p>
+</div>
+
+<div class="team-box">
+
+<p><strong>Escola:</strong> Colégio Estadual de Tempo Integral Professor Edgard Santos</p>
+
+<p><strong>Turma:</strong> 2°A — Curso Técnico em Agroecologia</p>
+
+<p><strong>Integrantes:</strong> Miirella, Mª Gabriela, João Daniel, Mª Eduarda, Moisés, Isabela, Cleiton, Huelber, Samira, Kris Heloísa, Luiza e Ana Luiza.</p>
+
+<p><strong>Professora:</strong> Ivone Santos</p>
+
+</div>
+
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>🌱 Asfalto Sustentável • Projeto Escolar</p>
+<p>Inovação para construir caminhos mais responsáveis.</p>
+</footer>
+
+</body>
+  </html>
